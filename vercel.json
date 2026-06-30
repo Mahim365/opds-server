@@ -1,0 +1,11 @@
+{
+     "version": 2,
+     "routes": [
+       { "src": "/api/opds/search.xml", "dest": "/api/opds/search.xml.js" },
+       { "src": "/api/opds(.*)", "dest": "/api/opds.js" },
+       { "src": "/", "dest": "/api/opds.js" }
+     ],
+     "functions": {
+       "api/opds.js": { "maxDuration": 30 }
+     }
+   }
