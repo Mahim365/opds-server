@@ -16,12 +16,12 @@
       "destination": "/api/opds/index.js"
     },
     {
-      "source": "/api/opds",
+      "source": "/opds",
       "destination": "/api/opds/index.js"
     },
     {
-      "source": "/api/opds/search.xml",
-      "destination": "/api/opds/search.xml.js"
+      "source": "/api/opds",
+      "destination": "/api/opds/index.js"
     }
   ]
 }
