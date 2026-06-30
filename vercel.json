@@ -11,17 +11,10 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/api/opds/index.js"
-    },
-    {
-      "source": "/opds",
-      "destination": "/api/opds/index.js"
-    },
-    {
-      "source": "/api/opds",
-      "destination": "/api/opds/index.js"
-    }
+    { "source": "/", "destination": "/api/opds/index.js" },
+    { "source": "/opds", "destination": "/api/opds/index.js" },
+    { "source": "/api/opds", "destination": "/api/opds/index.js" },
+    { "source": "/search.xml", "destination": "/api/opds/search.xml.js" },
+    { "source": "/api/opds/search.xml", "destination": "/api/opds/search.xml.js" }
   ]
 }
